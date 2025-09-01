@@ -292,7 +292,7 @@ function Appointment({ setActivePage, activePage, sidebarOpen, setSidebarOpen, p
 
                  {/* Student Requests Section */}
          <div className="student-requests-section">
-           <h2><FaUser /> Appointment & Consultation Requests</h2>
+           <h2><FaUser />Consultation Requests</h2>
           <div className="student-requests-grid">
             {studentRequests.map(request => (
               <div key={request.id} className={`student-request-card ${request.status.toLowerCase()}`}>
