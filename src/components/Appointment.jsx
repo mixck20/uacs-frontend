@@ -172,9 +172,6 @@ function Appointment({ setActivePage, activePage, sidebarOpen, setSidebarOpen, p
                          <button className="appointment-btn primary" onClick={() => setShowForm(true)}>
                <FaCalendarPlus /> Add Appointment
              </button>
-             <button className="appointment-btn secondary" onClick={() => setShowConsultation(true)}>
-               <FaPhone /> Start Consultation
-             </button>
           </div>
         </div>
 
